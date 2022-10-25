@@ -1,0 +1,6 @@
+{
+  "id": 8,
+  "name": "yair1112222",
+  "image": "https://www.israelhayom.co.il/wp-content/uploads/2022/10/03/03/%D7%99%D7%95%D7%A1%D7%99-%D7%96%D7%9C%D7%99%D7%92%D7%A8-3.10-960x640.jpg",
+  "json": " {\n\n\"name\": \"Sample graph\",\n\"nodes\": {\n\n\"node-A\": {\n\"name\": \"A\",\n\"inputs\": {\n\"B-size\": \"node-B -> metadata.size\"\n},\n\"metadata\": {\n\"age\": 3\n}\n},\n\"node-B\": {\n\"inputs\": {\n\"age-of-node-A\": \"node-A -> metadata.age\"\n},\n\"name\": \"B\",\n\"metadata\": {\n\"age\": 777,\n\"size\": \"90kb\"\n}\n}\n,\n\"node-C\": {\n\"inputs\": {\n\"age-of-node-A\": \"node-B -> metadata.age\"\n},\n\"name\": \"C\",\n\"metadata\": {\n\"age\": 77,\n\"size\": \"77kb\"\n}\n}\n}\n\n}  \n"
+}
