@@ -1,4 +1,4 @@
-# AiDock React frontend Assignment (GraphD3-Next-SQL-Node-React)
+# GraphD3-Next-SQL-Node-React
 
 ## installation
 
@@ -24,9 +24,8 @@ After that you need to connect the database from the graphs.sql table
 
 ## Task Requirements:
 
-This assignment needs to be written in React \ NextJS.
-
-At AiDock we have a lot of graphs between AI models and we want to create a graph designer
+ 
+We have a lot of graphs between AI models and we want to create a graph designer
 for the models.
 
 In this project we will create a graph designer that implements those requirements:
